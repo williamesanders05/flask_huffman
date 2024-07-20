@@ -1,0 +1,13 @@
+<!doctype html>
+<link rel="stylesheet" href="{{url_for('.static', filename='styles.css')}}">
+<title>Encrypt</title>
+<header>
+  <a href="/">Home</a>
+</header>
+<div class="main">
+  <form method=post enctype=multipart/form-data>
+    <p>Upload text file</p>
+    <input type=file name=file>
+    <input type=submit value=Upload>
+  </form>
+</div>
